@@ -1,7 +1,7 @@
 import pytest
 from fastapi.testclient import TestClient
 from unittest.mock import MagicMock, patch
-from llama_cpp_openai import start_openai_api_server  # Assuming your code is in main.py
+from llama_cpp_openai._api_server import start_openai_api_server  # Assuming your code is in main.py
 
 @pytest.fixture
 def mock_llama():
