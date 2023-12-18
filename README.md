@@ -18,6 +18,9 @@ The project is organized into several key directories and files:
     - `autogen_functions.py`: Sets up an AutoGen chatbot with function calls capabilities.
     - `basic.py`: Demonstrates the setup and start of an API server using the Llama library.
 
+## Installing
+- `pip install llama_cpp_openai`
+
 ## Key Features
 - **FastAPI Integration**: Utilizes FastAPI for efficient and easy-to-use API endpoints.
 - **Llama Library Usage**: Leverages the Llama library for handling AI model interactions.
