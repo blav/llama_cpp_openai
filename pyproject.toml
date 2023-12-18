@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "llama-cpp-openai"
-version = "0.1.0"
+name = "llama_cpp_openai"
+version = "0.1.1"
 description = "Lightweight OpenAI API server on top of Llama local models. Suitable for combined use with Microsoft AutoGen."
 authors = ["blav <blav@actar.us>"]
 readme = "README.md"
@@ -11,7 +11,6 @@ classifiers = [
   "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: 3.12",
   "Operating System :: OS Independent",
   "Operating System :: POSIX",
   "Operating System :: MacOS",

@@ -12,7 +12,7 @@ def mock_llama():
 
 @pytest.fixture
 def client(mock_llama):
-    with patch("llama_cpp_openai._server.Llama", return_value=mock_llama):
+    with patch("llama_cpp_openai._api_server.Llama", return_value=mock_llama):
         _, app = start_openai_api_server(mock_llama)
         client = TestClient(app)
         yield client
